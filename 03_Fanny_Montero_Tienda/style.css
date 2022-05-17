@@ -282,7 +282,7 @@ float: left;
 
 .lett{
  display: inline-block; margin-top: auto;
-  width: 30%;
+  width: 25%;
 float: right;
 justify-self: flex-end;
 }
