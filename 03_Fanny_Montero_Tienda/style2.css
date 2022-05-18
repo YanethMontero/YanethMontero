@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #ffd6ee;
+  }
+  
+  .carouse-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    background-color: #c9aac6;
+  }
+  
+  .header_logo {
+    line-height: 100px;
+    float: left;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 80px;
+    margin-top: 20px;
+  }
+  
+  .right-menu {
+    margin-top: 60px;
+    position: relative;
+    float: right;
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+    color: #ffbcd1;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .nav li a {
+    background-color: #c9aac6;
+    color: #fffffa;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    border-radius: 10px;
+  }
+  
+  .nav li a:hover {
+    background-color: #856396;
+  }
+  
+  .nav > li {
+    float: right;
+  }
+  
+  .nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+  }
+  
+  .nav li:hover > ul {
+    display: block;
+  }
+  
+  .nav li ul li {
+    position: relative;
+    z-index: 9999;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #856396;
+  }
+  
+
+
+.container-banner{
+  display:block;
+
+}
+
+.banner-text{
+  display: inline-block;
+ justify-self: center;
+padding-top: 250px;
+padding-left: 70px;
+ font-size: 50px;
+ font-family: sans-serif;
+ font-style: italic;
+ font-weight:500;
+ color:#856396;
+}
+
+.child{
+  display: inline-block; 
+float: left;
+}
+
+.lett{
+ display: inline-block; margin-top: auto;
+  width: 25%;
+float: right;
+justify-self: flex-end;
+}
+
+product-show{
+    width: 100%;
+    height: 700px;
+    margin: 5% auto;
+    background-color: #dcaed7;
+  }
+  
+  .text-show{
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #fffffa;
+  }
+  
+    .productos-muestra{
+      
+      display: grid;
+      margin-top: 20%;
+      margin-block-end: 20%;
+      height: 600px;
+      padding-left: 200px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4,1fr);
+      justify-content: center;
+        justify-content: space-between;
+      align-content: center;
+      align-items: center;
+     
+      list-style: none;
+    }
+    .productos-muestra .pokemon:nth-child(1){
+      order:-1;
+     
+    }
+    .productos-muestra .pinguino:nth-child(2){
+      order:0;
+    }
+  
+    .productos-muestra .Demon:nth-child(3){
+      order:1;
+    }
+  
+    .productos-muestra .stich:nth-child(4){
+      order:2;
+    }
+  
+    .productos-muestra .personalizado:nth-child(5){
+      order:3;
+    }
+  
+    .productos-muestra .arreglos:nth-child(6){
+      order:4;
+    }
+
+    .productos-muestra .Kindred:nth-child(7){
+        order:5;
+      }
+
+    .productos-muestra .Pato:nth-child(8){
+        order:6;
+      }
+
+    .productos-muestra .Coco:nth-child(9){
+        order:7;
+      }
+
+    .productos-muestra .Coco:nth-child(10){
+        order:8;
+      }
+
+    .productos-muestra .Coco:nth-child(11){
+        order:9;
+      }
+
+    .productos-muestra .Coco:nth-child(12){
+        order:10;
+      }
+  
+  .pokemon{
+    width: 50%;
+  }
+  
+  .pinguino{
+    width: 40%;
+  }
+  
+  .Demon{
+    width: 40%;
+  }
+  
+  .stich{
+    width: 70%;
+  }
+  
+  .personalizado{
+    width: 50%;
+  }
+  
+  .arreglos{
+    width: 40%;
+  }
+  
+  .container-banner{
+    display:block;
+  
+  }
+
+  .Kindred{
+    width: 40%;
+  }
+
+  .Pato{
+    width: 40%;
+  }
+
+  .Coco{
+    width: 40%;
+  }
+
+  .Legoshi{
+    width: 40%;
+  }
+
+  .Dinosaurio{
+    width: 40%;
+  }
+
+  .Dino-perso{
+    width: 40%;
+  }
