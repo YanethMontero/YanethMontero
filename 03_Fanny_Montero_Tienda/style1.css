@@ -161,4 +161,48 @@
       color: #ce215e;
   }
 
+  .img2{
+    margin-top: 2%;
+    width: 31%;
+    padding-left: 90px;
+    
+  }
+
+  .img3{
+    margin-top: -3%;
+    width: 30%;
+    padding-left: 80px;
+  }
+
+  .img4{
+    margin-top: 2%;
+    width: 50%;
+    
+  }
+
+  .product-name1{
+    display: inline-block;
+    padding-top: 5%;
+    font-family: sans-serif;
+    font-size: 27px;
+    color:#745584;
+}
+
+.descript1{
+    display: inline-block;
+    padding-right: 200px;
+    float: right;
+    margin-top: -30%;
+    font-family: sans-serif;
+    color: #3b2745;
+  }
+
+  .product-name2{
+    display: inline-block;
+    padding-top: 10%;
+    font-family: sans-serif;
+    font-size: 27px;
+    color:#745584;
+}
+
   
