@@ -287,3 +287,49 @@ float: right;
 justify-self: flex-end;
 }
 
+.source{
+  width: 35%;
+ 
+  margin-top: 5%;
+
+}
+
+.nosotros-text{
+
+ float:  center;
+ margin-left: 10%;
+  
+  display: inline-block ;
+  justify-content: center;
+  align-self: center ;
+  margin-top: 2%;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #856396;
+
+}
+
+.logopa{
+  width: 35%;
+  display: flex;
+  margin-top: 5%;
+}
+
+.nosotros-t{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contacto-t
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contacto-text{
+  font-family: sans-serif;
+  color: #856396;
+}
+
